@@ -1,0 +1,32 @@
+# ---- never commit secrets ----
+*.pem
+*.key
+*.crt
+.env
+keys/
+.secrets/
+
+# generated outputs & local data
+reports/
+*.sqlite
+__pycache__/
+*.py[cod]
+*$py.class
+
+# packaging / cache
+*.egg-info/
+dist/
+build/
+.eggs/
+.cache/
+
+# virtualenvs
+.venv/
+venv/
+env/
+
+# editors / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
